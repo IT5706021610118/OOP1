@@ -12,10 +12,10 @@ public class Trik {
 		do {
 			System.out.print("Enter character (A,B or C) : ");
 			ch = scan.nextLine();
-			if(ch.length() > 50){
+			if(ch.length() > 50 || ch.length() <= 0){
 				System.out.println("Invalid input. Please enter again!!!");
 			}
-		} while (ch.length() > 50);
+		} while (ch.length() > 50 || ch.length() <= 0 );
 		for (int i = 0; i < ch.length(); i++) {
 			if (ch.charAt(i) == 'A' || ch.charAt(i) == 'a') {
 				temp = A;
