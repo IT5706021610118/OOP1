@@ -503,7 +503,7 @@ public class SevenDwarves {
 		} else {
 			System.out.println("Summary of number not equal 100.!!!");
 			System.out.println("Please take again.!!!");
-			count++;
+			count=1;
 		}
 		}while(count == 1);
 	}
